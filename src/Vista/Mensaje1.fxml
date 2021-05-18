@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="289.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controlador.Mensaje1Controller">
+   <children>
+      <TextArea editable="false" layoutX="70.0" layoutY="34.0" prefHeight="176.0" prefWidth="212.0" text="El covertidor te permite&#10;convertir cualquier &#10;número de cualquier &#10;sistema númerico&#10;a cualquier sistema &#10;númerico">
+         <font>
+            <Font name="Bebas" size="17.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="18.0" layoutY="250.0" mnemonicParsing="false" onAction="#btnaceptar" text="Aceptar" />
+   </children>
+</AnchorPane>
